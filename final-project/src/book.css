@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  input {
+    width: 50%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #0e0b0b;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  button:hover {
+    background-color: #ffe100;
+  }

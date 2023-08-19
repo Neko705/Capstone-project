@@ -1,0 +1,85 @@
+
+body{
+  background-color: #ededed;
+  font-family: 'Markazi text', serif;
+  background-image: url(./images/summer-drinks-limes-lemons-wooden-surface.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+header > img{
+  display: flex;
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+main {
+  display:flex;
+  justify-content: space-between;
+}
+
+section{
+  flex-basis: 30%;
+  padding: 10px;
+}
+
+article {
+  flex: 1;
+  display: block;
+  padding: 20px;
+  border:1px;
+  border-radius: 20px;
+  height: 600px;
+  width: 450px;
+  margin-bottom: 20px;
+  background-color: rgb(159, 203, 188);
+}
+
+article img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+article > h1 {
+  color: #f94242;
+}
+
+article:hover{
+  border: #f94242 solid;
+}
+
+footer{
+  display: flex;
+}
+
+footer div{
+  flex: 1;
+  color: #ededed;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+div p{
+
+  text-align:right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
